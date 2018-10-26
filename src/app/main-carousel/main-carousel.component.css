@@ -1,5 +1,5 @@
 .carousel-container {
-  margin: 5px 0px;
+  margin: 5px 0px 0px 0px;
 }
 
 .fixed-picture {
@@ -150,3 +150,20 @@
   border-radius: 5px;
   text-align: center;
 }
+
+.carousel-footer {
+  background-color: #cfd9df;
+  height: 70px;
+  min-width: 1024px;
+  padding: 0px 50px;
+  text-align: center;
+  padding: 15px 0px 10px;
+}
+
+.carousel-footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+  color: #21282d;
+  font-size: 12px;
+} 
