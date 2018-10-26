@@ -80,4 +80,11 @@ hr.divider {
 
 .box6 {
   background-color: #dfdfd5c9;
+  text-align: center;
+}
+
+.box6 h2 {
+  margin: 50px auto;
+  margin-top: 100px;
+  width: 280px;
 }
