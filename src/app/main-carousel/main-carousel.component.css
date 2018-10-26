@@ -1,0 +1,36 @@
+.fixed-picture {
+  position: relative;
+}
+
+.first-slide-overlay button {
+  width: 160px;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 0%;
+  background-color: rgba(0,0,0,0);
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+}
+
+.first-slide-overlay p {
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  line-height: 1.25;
+  font-weight: 300;
+  width: 290px;
+  text-align: left;
+}
+
+.first-slide-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}

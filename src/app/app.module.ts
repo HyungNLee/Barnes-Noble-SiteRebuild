@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
 import { HeaderAdvertComponent } from './header-advert/header-advert.component';
+import { MainCarouselComponent } from './main-carousel/main-carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderBarComponent,
-    HeaderAdvertComponent
+    HeaderAdvertComponent,
+    MainCarouselComponent
   ],
   imports: [
     BrowserModule,
