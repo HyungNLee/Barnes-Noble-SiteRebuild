@@ -4,9 +4,20 @@
   grid-auto-rows: 475px; 
 } 
 
+hr.divider {
+  border: 2px solid black;
+  width: 30px;
+}
+
 .grid-box {
-  
   margin: 5px;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+
+.grid-box img {
+  width: 95%;
+  margin: 40px 0px auto;
 }
 
 .grid-box-border {
@@ -18,4 +29,24 @@
   grid-column-end: 3; 
   grid-row-start: 1; 
   grid-row-end: 3; 
+  background-color: #eeeeed;
+  
+}
+
+.box3 h2 {
+  font-family: Poynter, Georgia, serif;
+}
+
+.box4 p {
+  margin: 20px 0px auto;
+  font-weight: 300;
+}
+
+.link-text {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.box6 {
+  background-color: #dfdfd5c9;
 }
