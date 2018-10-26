@@ -1,5 +1,16 @@
 # BarnesNoble
 
+# Layout of the page
+* There will be a header component with the top navbar, logo, search bar, and the login button.
+* Under that will be a component with a list of links to common genres of books that users typically visit.
+* Under that is the main body component
+    * Inside the main body component is the carousel component with images and links to featured sales or preorder specials
+    * Under the carousel are three rows that hold three featured items in each row
+        * These featured items will be a 'featured-item' component.
+    * A horizontal scrolling list component that house Barnes and Noble exclusive books.
+        * Each of these exclusive books will be a 'exclusive-book' component.
+* Footer component with links to various services, help, and 'about us' pages.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
