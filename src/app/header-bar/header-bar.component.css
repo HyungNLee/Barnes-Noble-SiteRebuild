@@ -4,6 +4,10 @@
     min-width: 1024px;
 }
 
+.header-two, .link-list {
+    min-width: 1024px;
+}
+
 .right-header-one {
     padding-bottom: 6px;
 }
