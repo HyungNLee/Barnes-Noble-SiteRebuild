@@ -58,6 +58,8 @@
     border-color: #288480;
     color: white;
     background-color: #288480;
+    height: 40px;
+    border-radius: 0%;
 }
 
 .sign-in-box p {
@@ -85,4 +87,18 @@
     text-align: center;
     margin-top: 8px;
     font-size: 12px;
+} 
+
+.search-bar-container {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.search-input { 
+    background-color: #eeeeed;
+    height: 40px;
+    border-radius: 0%;
+    width: 472px;
+    margin-right: 0px;
 }
