@@ -30,8 +30,21 @@
 }
 
 .header-two #logo {
-    display: inline;
     margin: 12px;
     width: 188px;
     height: 26px;
+}
+
+.search-bar {
+    border: 1px solid #288480;
+}
+
+#navbarDropdown {
+    background-color: #dddddb;
+    color: #21282d;
+}
+
+.dropdown-item {
+    color: #21282d;
+    font-family: Lato, sans-serif;
 }
