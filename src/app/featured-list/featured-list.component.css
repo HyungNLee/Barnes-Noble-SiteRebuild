@@ -24,17 +24,48 @@ hr.divider {
   border: 1px solid rgb(202, 202, 202);
 }
 
+.top-items-container h1 {
+  font-family: 'EB Garamond', Georgia, serif;
+  display: inline;
+  font-size: 70px;
+  margin: 10px 35px;
+  float: left;
+}
+
+.top-items-container p {
+  text-align: left;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.book-information-container{
+  display: inline;
+  margin: 10px 55px;
+}
+
+.book-information-container .author {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
 .box3 { 
   grid-column-start: 3; 
   grid-column-end: 3; 
   grid-row-start: 1; 
   grid-row-end: 3; 
   background-color: #eeeeed;
-  
 }
 
 .box3 h2 {
-  font-family: Poynter, Georgia, serif;
+  margin-top: 50px;
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.box3 button {
+  width: 240px;
+  color: white;
+  background-color: rgb(0, 0, 29);
 }
 
 .box4 p {
