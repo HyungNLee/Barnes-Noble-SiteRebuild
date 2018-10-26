@@ -19,3 +19,19 @@
 .carousel-item.active {
     display:block;
 }
+
+#header-carousel {
+    color: #21282d;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header-two #logo {
+    display: inline;
+    margin: 12px;
+    width: 188px;
+    height: 26px;
+}

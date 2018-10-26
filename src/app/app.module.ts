@@ -14,7 +14,7 @@ import { HeaderBarComponent } from './header-bar/header-bar.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
