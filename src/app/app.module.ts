@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
+import { HeaderAdvertComponent } from './header-advert/header-advert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderBarComponent
+    HeaderBarComponent,
+    HeaderAdvertComponent
   ],
   imports: [
     BrowserModule,

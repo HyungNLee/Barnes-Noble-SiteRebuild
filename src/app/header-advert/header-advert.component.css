@@ -1,0 +1,28 @@
+.advert-box {
+  background-color: #346250;
+  height: 70px;
+  min-width: 1024px;
+  padding: 0px 50px;
+}
+
+p {
+  display: inline;
+  font-family: Lato, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0px 50px;
+}
+
+.main {
+  width: 65%;
+}
+
+.side {
+  text-decoration: underline;
+}
+
+img {
+  margin: 10px;
+  height: 42px;
+  width: 155;
+}
