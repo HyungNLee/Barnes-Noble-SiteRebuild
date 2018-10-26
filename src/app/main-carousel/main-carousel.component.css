@@ -115,3 +115,38 @@
   border-radius: 5px;
   text-align: center;
 }
+
+.fourth-slide-overlay button {
+  width: 160px;
+  height: 45px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0%;
+  background-color: rgba(0,0,0,0);
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+}
+
+.fourth-slide-overlay p {
+  font-family: Poynter,Georgia,serif;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 400;
+  width: 720px;
+  text-align: center;
+  color: white;
+}
+
+.fourth-slide-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 75%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
