@@ -36,7 +36,6 @@
 }
 
 .search-bar {
-    border: 1px solid #288480;
     padding: 0px;
 }
 
@@ -106,4 +105,16 @@
 .fa-shopping-cart {
     color: black;
     font-size: 30px;
+}
+
+.common-link {
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    color: #21282d;
+}
+
+.sale-link {
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    color: red;
 }
