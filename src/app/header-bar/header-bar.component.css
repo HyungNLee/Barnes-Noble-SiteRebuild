@@ -1,6 +1,7 @@
 .header-one {
     background-color: #C9DAE2;
     height: 28px;
+    min-width: 1024px;
 }
 
 .right-header-one {
@@ -13,4 +14,8 @@
     font-size: 12px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.carousel-item.active {
+    display:block;
 }
