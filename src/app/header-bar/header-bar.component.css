@@ -45,6 +45,10 @@
     color: #21282d;
 }
 
+#signInDropdown {
+    color: #21282d;
+}
+
 .dropdown-item {
     color: #21282d;
     font-family: Lato, sans-serif;
@@ -54,4 +58,31 @@
     border-color: #288480;
     color: white;
     background-color: #288480;
+}
+
+.sign-in-box p {
+    font-family: Lato, sans-serif;
+    margin: 0px;
+    font-size: 11px;
+    color: #a0a0a0;
+}
+
+.sign-in-box .nav-item .dropdown-toggle {
+    padding: 0px;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+}
+
+.sign-in-button {
+    background-color: #288480;
+    color: white;
+    border-radius: 0%;
+    margin-left: 20%;
+}
+
+.sign-in-menu p {
+    color: #288480;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 12px;
 }
