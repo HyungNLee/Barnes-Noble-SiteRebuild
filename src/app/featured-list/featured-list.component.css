@@ -9,6 +9,35 @@ hr.divider {
   width: 30px;
 }
 
+.white-box-overlay {
+  width: 234px;
+  height: 377px;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 0px;
+}
+
+.white-box-overlay h2 {
+  font-family: 'EB Garamond', Georgia, serif;
+  margin: 50px auto;
+  margin-top: 50px;
+}
+
+.white-box-overlay p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .grid-box {
   margin: 5px;
   text-align: center;
@@ -49,6 +78,16 @@ hr.divider {
   font-size: 14px;
 }
 
+.box1 {
+  background-image: url("../../assets/teal_background.jpg");
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url("../../assets/blue_pattern.png");
+  background-size: cover;
+}
+
 .box3 { 
   grid-column-start: 3; 
   grid-column-end: 3; 
@@ -68,14 +107,24 @@ hr.divider {
   background-color: rgb(0, 0, 29);
 }
 
-.box4 p {
+.box4 p, .box5 p {
   margin: 20px 0px auto;
   font-weight: 300;
+  margin-top: 5px;
 }
 
 .link-text {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.box5 {
+  background-image: url("../../assets/book_better.jpg");
+  background-size: contain;
+}
+
+.box5 .text-container {
+  margin-top: 370px;
 }
 
 .box6 {
