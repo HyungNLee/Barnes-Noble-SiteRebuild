@@ -9,6 +9,8 @@ import { HeaderAdvertComponent } from './header-advert/header-advert.component';
 import { MainCarouselComponent } from './main-carousel/main-carousel.component';
 import { FeaturedListComponent } from './featured-list/featured-list.component';
 import { FeaturedItemComponent } from './featured-item/featured-item.component';
+import { ExclusiveBooksListComponent } from './exclusive-books-list/exclusive-books-list.component';
+import { ExclusiveBookItemComponent } from './exclusive-book-item/exclusive-book-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FeaturedItemComponent } from './featured-item/featured-item.component';
     HeaderAdvertComponent,
     MainCarouselComponent,
     FeaturedListComponent,
-    FeaturedItemComponent
+    FeaturedItemComponent,
+    ExclusiveBooksListComponent,
+    ExclusiveBookItemComponent
   ],
   imports: [
     BrowserModule,

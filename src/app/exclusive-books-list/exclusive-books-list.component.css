@@ -1,0 +1,17 @@
+.top-divider {
+    display: inline-block;
+    width: 35%;
+    margin-top: 60px;
+}
+
+.divider {
+    font-family: 'EB Garamond', Georgia, serif;
+    text-align: center;
+}
+
+.divider h3 {
+    display: inline-block;
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
