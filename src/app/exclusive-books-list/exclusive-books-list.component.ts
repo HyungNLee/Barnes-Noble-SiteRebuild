@@ -10,6 +10,7 @@ export class ExclusiveBooksListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

@@ -20,12 +20,16 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/slick-carousel/slick/slick.css",
         "styles.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.slim.min.js",
         "../node_modules/popper.js/dist/umd/popper.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"],
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/slick-carousel/slick/slick.min.js",
+        "../src/app/exclusive-books-list.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
