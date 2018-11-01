@@ -38,6 +38,40 @@ hr.divider {
   font-weight: 300;
 }
 
+.black-box-overlay {
+  width: 234px;
+  height: 377px;
+  background-color: #313131;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 0px;
+  color: white;
+}
+
+.black-box-overlay h2 {
+  font-family: 'EB Garamond', Georgia, serif;
+  margin: 50px auto;
+  margin-top: 50px;
+}
+
+.black-box-overlay p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.black-box-overlay hr.divider {
+  border: 1px solid white;
+}
+
 .grid-box {
   margin: 5px;
   text-align: center;
@@ -136,4 +170,19 @@ hr.divider {
   margin: 50px auto;
   margin-top: 100px;
   width: 280px;
+}
+
+.box7 {
+  background-image: url("../../assets/halloween_bg.jpg");
+  background-size: contain;
+}
+
+.box8 {
+  background-image: url("../../assets/grinch_bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box8 .text-container {
+  margin-top: 370px;
 }
