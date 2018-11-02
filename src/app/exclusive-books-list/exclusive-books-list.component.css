@@ -16,7 +16,7 @@
 }
 
 .slider {
-    padding: 10px;
+    padding: 5px;
     width: 85%;
     margin: auto;
 }
@@ -61,5 +61,5 @@
 
 #star-rating {
     width: 60%;
-    margin: auto;
+    margin: 0 auto;
 }
