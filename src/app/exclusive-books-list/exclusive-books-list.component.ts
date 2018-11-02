@@ -18,19 +18,12 @@ export class ExclusiveBooksListComponent implements OnInit {
   constructor(private exclusiveBookService: ExclusiveBooksService) { }
 
   ngOnInit() {
-    // this.bookList = this.exclusiveBookService.getExclusiveBookList();
-    // setTimeout(() => {
-    //   initializeSlick();
-    // }, 1000);
-
     this.exclusiveBookService.getExclusiveBookList().subscribe(dataLastEmittedFromObserver => {
       this.bookList = dataLastEmittedFromObserver;
       this.bookList.forEach(element => {
         let newBook = new Book(element.title, element.author, element.starRating, element.bookImg);
         this.convertedBookList.push(newBook);
       });
-
-      // initializeSlick();
     });
   }
 

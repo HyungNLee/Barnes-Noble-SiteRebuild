@@ -63,3 +63,50 @@
     width: 60%;
     margin: 0 auto;
 }
+
+.list-footer {
+    margin: 50px 0;
+}
+
+.list-footer p {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lato, sans-serif;
+    line-height: 0;
+    color: #5a5a5a;
+}
+
+.footer-promotions {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 12px;
+    font-family: Lato, sans-serif;
+}
+
+.wrapper { 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+} 
+
+.grid {
+    border: 1px solid #a5a5a5;
+    padding: 15px;
+    text-align: left;
+}
+
+.grid p {
+    line-height: 1;
+}
+
+.grid .link {
+    color: darkcyan;
+}
+
+.box1 {
+    border-left: 0px;
+    padding-left: 0px;
+}
+
+.box4 {
+    border-right: 0px;
+}
