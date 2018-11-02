@@ -4,7 +4,7 @@
   <hr class="top-divider">
 </div>
 <div class="slider">
-  <div class="exclusive-item">
+  <!-- <div class="exclusive-item">
     <div class="product-picture">
       <img class="exclusive-item-product-img" src="../../assets/exclusive-items/unsheltered.jpg">
       <hr>
@@ -14,15 +14,20 @@
       <p class="exclusive-item-producut-author">by <span class="author-link">Barbara Kingsolver</span></p>
     </div>
     <div class="product-rating">
-
+      <img id="star-rating" src="../../assets/star-ratings/star0.png">
+    </div>
+  </div> -->
+  <div *ngFor="let book of bookList" class="exclusive-item">
+    <div class="product-picture">
+      <img class="exclusive-item-product-img" src="../../assets/exclusive-items/{{book.bookImg}}">
+      <hr>
+    </div>
+    <div class="product-info">
+      <p class="exclusive-item-product-title">{{book.title}} (B&N Exclusive Edition)</p>
+      <p class="exclusive-item-producut-author">by <span class="author-link">{{book.author}}</span></p>
+    </div>
+    <div class="product-rating">
+      <img id="star-rating" src="../../assets/star-ratings/star{{book.starRating}}.png">
     </div>
   </div>
-  <div class="exclusive-item">2</div>
-  <div class="exclusive-item">3</div>
-  <div class="exclusive-item">4</div>
-  <div class="exclusive-item">5</div>
-  <div class="exclusive-item">6</div>
-  <div class="exclusive-item">7</div>
-  <div class="exclusive-item">8</div>
-  <div class="exclusive-item">9</div>
 </div>
