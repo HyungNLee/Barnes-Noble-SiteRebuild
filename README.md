@@ -17,17 +17,19 @@
 
 ## Setup/Installation Requirements
 
+  - Webpage is deployed on Firebase -> https://barnes-noble-slick.firebaseapp.com/
+
   - Clone this repository from https://github.com/HyungNLee/Barnes-Noble-SiteRebuild.git
   - Navigate to the "Barnes-Noble-SiteRebuild
 " folder in your terminal and type "npm install" to install necessary plugins.
   - Go to https://firebase.google.com/ and log in or create an account.
   - Create a firebase project.
-  - Click on the circular gear icon next to the 'Project Overview' in the project you just created in firebase.
+  - Click on the circular gear icon next to the 'Project Overview' in the project you just created in Firebase.
     * Under the general tab, click on "Add Firebase to your web app:.
     * Copy everything inside the curly brackets of 'var config = { ... }.
   - Create a file in the app folder called 'api-keys.ts'.
     * Inside the api-keys.ts file, type in 'export const masterFirebaseConfig = {}'
-    * Inside the curly braces, paste what you copied earlier from firebase.
+    * Inside the curly braces, paste what you copied earlier from Firebase.
   - Click on 'Database' on the left side of Firebase console under your project and create a database. 
     * Next to the 'Database' header click on the dropdown menu and click on 'Realtime Database'.
     * Click on the icon that looks like three vertical dots under the 'Data' tab and click on 'Import JSON'.
