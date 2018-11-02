@@ -12,20 +12,29 @@ declare function initializeSlick(): any;
 })
 export class ExclusiveBooksListComponent implements OnInit {
 
-  bookList: FirebaseListObservable<any[]>;
+  bookList;
   convertedBookList: Book[] = [];
 
   constructor(private exclusiveBookService: ExclusiveBooksService) { }
 
   ngOnInit() {
-    this.bookList = this.exclusiveBookService.getExclusiveBookList()
-    setTimeout(() => {
-      initializeSlick();
-    }, 1000);
+    // this.bookList = this.exclusiveBookService.getExclusiveBookList();
+    // setTimeout(() => {
+    //   initializeSlick();
+    // }, 1000);
 
-    }
-    // this.bookList.forEach(element => {
-    //   let newBook = new Book(element[0], element[1], element[2], element[3]);
-    //   this.convertedBookList.push(newBook);
-    // });
+    this.exclusiveBookService.getExclusiveBookList().subscribe(dataLastEmittedFromObserver => {
+      this.bookList = dataLastEmittedFromObserver;
+      this.bookList.forEach(element => {
+        let newBook = new Book(element.title, element.author, element.starRating, element.bookImg);
+        this.convertedBookList.push(newBook);
+      });
+
+      // initializeSlick();
+    });
   }
+
+  ngAfterViewInit() {
+    initializeSlick();
+  } 
+}

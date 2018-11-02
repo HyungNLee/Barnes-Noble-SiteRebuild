@@ -4,7 +4,7 @@
   <hr class="top-divider">
 </div>
 <div class="slider">
-  <div *ngFor="let book of bookList | async" class="exclusive-item">
+  <div *ngFor="let book of convertedBookList" class="exclusive-item">
     <div class="product-picture">
       <img class="exclusive-item-product-img" src="../../assets/exclusive-items/{{book.bookImg}}">
       <hr>
