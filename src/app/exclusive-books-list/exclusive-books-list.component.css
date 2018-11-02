@@ -15,8 +15,41 @@
     margin-left: 11px;
 }
 
-.exclusive-item {
-    border: 1px solid black;
-    height: 100px;
+.slider {
+    padding: 10px;
+    width: 85%;
+    margin: auto;
 }
 
+.exclusive-item {
+    border: 1px solid black;
+    height: 300px;
+
+    font-size: 12px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1;
+}
+
+.product-picture {
+    height: 75%;
+}
+
+.product-info p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.exclusive-item-product-img {
+    margin: auto;
+    height: 100%;
+}
+
+.product-picture hr {
+    margin: 0px;
+}
+
+.author-link {
+    color: darkcyan;
+}
