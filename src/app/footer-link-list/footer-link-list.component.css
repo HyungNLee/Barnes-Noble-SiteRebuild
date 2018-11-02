@@ -18,3 +18,28 @@
   color: darkcyan;
   display: block;
 }
+
+.footer {
+  margin-top: 60px;
+  width: 85%;
+}
+
+.footer hr {
+  width: 85%;
+}
+
+.footer-list {
+  margin-left: 1%;
+}
+
+.footer-list li {
+  display: inline;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 5px 0px;
+  margin: 5px 20px;
+}
+
+.footer-list li a {
+  color: darkcyan;
+}
