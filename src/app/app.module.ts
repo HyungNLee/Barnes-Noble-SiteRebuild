@@ -14,6 +14,7 @@ import { ExclusiveBookItemComponent } from './exclusive-book-item/exclusive-book
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FooterLinkListComponent } from './footer-link-list/footer-link-list.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +32,8 @@ export const firebaseConfig = {
     FeaturedListComponent,
     FeaturedItemComponent,
     ExclusiveBooksListComponent,
-    ExclusiveBookItemComponent
+    ExclusiveBookItemComponent,
+    FooterLinkListComponent
   ],
   imports: [
     BrowserModule,

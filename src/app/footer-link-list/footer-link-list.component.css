@@ -1,0 +1,20 @@
+.wrapper { 
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr);
+  width: 85%;
+  margin: auto;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+} 
+
+.category_title {
+  font-size: 15px;
+}
+
+.link {
+  font-weight: 300;
+  margin: 5px 0px;
+  width: 60%;
+  color: darkcyan;
+  display: block;
+}

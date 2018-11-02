@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <div class="grid box1">
+    <p class="category_title">B&N Services</p>
+    <a *ngFor="let link of servicesArray" class="link" href="{{link.link}}">{{link.text}}</a>
+  </div>
+  <div class="grid box1">
+    <p class="category_title">Shipping</p>
+    <a *ngFor="let link of shippingArray" class="link" href="{{link.link}}">{{link.text}}</a>
+  </div>
+  <div class="grid box1">
+    <p class="category_title">NOOK</p>
+    <a *ngFor="let link of nookArray" class="link" href="{{link.link}}">{{link.text}}</a>
+  </div>
+  <div class="grid box1">
+    <p class="category_title">About Us</p>
+    <a *ngFor="let link of aboutUsArray" class="link" href="{{link.link}}">{{link.text}}</a>
+  </div>
+  <div class="grid box1">
+    <p class="category_title">Quick Help</p>
+    <a *ngFor="let link of quickHelpArray" class="link" href="{{link.link}}">{{link.text}}</a>
+  </div>
+</div>

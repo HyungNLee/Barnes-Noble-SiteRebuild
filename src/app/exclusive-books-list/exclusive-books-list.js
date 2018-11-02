@@ -6,5 +6,5 @@ function initializeSlick() {
       autoplay: false
     });
     console.log("Working!");
-  }, 500);
+  }, 1000);
 }
