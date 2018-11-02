@@ -11,6 +11,16 @@ import { FeaturedListComponent } from './featured-list/featured-list.component';
 import { FeaturedItemComponent } from './featured-item/featured-item.component';
 import { ExclusiveBooksListComponent } from './exclusive-books-list/exclusive-books-list.component';
 import { ExclusiveBookItemComponent } from './exclusive-book-item/exclusive-book-item.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -27,6 +37,8 @@ import { ExclusiveBookItemComponent } from './exclusive-book-item/exclusive-book
     BrowserModule,
     FormsModule,
     HttpModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

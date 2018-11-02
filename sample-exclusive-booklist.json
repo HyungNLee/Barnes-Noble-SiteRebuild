@@ -1,0 +1,52 @@
+{
+  "exclusive_list": [
+    {
+      "title": "Unsheltered",
+      "author": "Barbara Kingsolver",
+      "starRating": "0",
+      "bookImg": "unsheltered.jpg"
+    },
+    {
+      "title": "Dear Evan Hansen: The Novel",
+      "author": "Val Emmich",
+      "starRating": "0",
+      "bookImg": "dear-evan-hansen-the-novel.jpg"
+    },
+    {
+      "title": "Tales from a Not-So-Happy Birthday",
+      "author": "Rachel Renee Russell",
+      "starRating": "4",
+      "bookImg": "tales-from-a-not-so-happy-birthday.jpg"
+    },
+    {
+      "title": "The Clockmaker's Daughter",
+      "author": "Kate Morton",
+      "starRating": "4",
+      "bookImg": "the-clockmaker's-daughter.jpg"
+    },
+    {
+      "title": "In the Hurricane's Eye: The Genius of George Washington and the Victory at Yorktown",
+      "author": "Nathaniel Philbrick",
+      "starRating": "0",
+      "bookImg": "george-washington.jpg"
+    },
+    {
+      "title": "Every Breath",
+      "author": "Nicholas Sparks",
+      "starRating": "5",
+      "bookImg": "every-breath.jpg"
+    },
+    {
+      "title": "Flashback",
+      "author": "Shannon Messenger",
+      "starRating": "5",
+      "bookImg": "flashback.jpg"
+    },
+    {
+      "title": "The Next Person You Meet in Heaven",
+      "author": "Mitch Albom",
+      "starRating": "5",
+      "bookImg": "the-next-person-you-meet-in-heaven.jpg"
+    }
+  ]
+}

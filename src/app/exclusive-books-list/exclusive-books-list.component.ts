@@ -1,28 +1,31 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../models/books.model';
+import { ExclusiveBooksService } from '../exclusive-books.service';
+import { FirebaseListObservable } from 'angularfire2/database';
+declare function initializeSlick(): any;
 
 @Component({
   selector: 'app-exclusive-books-list',
   templateUrl: './exclusive-books-list.component.html',
-  styleUrls: ['./exclusive-books-list.component.css']
+  styleUrls: ['./exclusive-books-list.component.css'],
+  providers: [ExclusiveBooksService]
 })
 export class ExclusiveBooksListComponent implements OnInit {
 
-  constructor() { }
+  bookList: FirebaseListObservable<any[]>;
+  convertedBookList: Book[] = [];
+
+  constructor(private exclusiveBookService: ExclusiveBooksService) { }
 
   ngOnInit() {
+    this.bookList = this.exclusiveBookService.getExclusiveBookList()
+    setTimeout(() => {
+      initializeSlick();
+    }, 1000);
 
+    }
+    // this.bookList.forEach(element => {
+    //   let newBook = new Book(element[0], element[1], element[2], element[3]);
+    //   this.convertedBookList.push(newBook);
+    // });
   }
-
-  bookList: Book[] = [
-    new Book('Unsheltered', 'Barbara Kingsolver', '0', 'unsheltered.jpg'),
-    new Book('Dear Evan Hansen: The Novel', 'Val Emmich', '0', 'dear-evan-hansen-the-novel.jpg'),
-    new Book('Tales from a Not-So-Happy Birthday', 'Rachel Renee Russell', '4', 'tales-from-a-not-so-happy-birthday.jpg'),
-    new Book("The Clockmaker's Daughter", 'Kate Morton', '4', "the-clockmaker's-daughter.jpg"),
-    new Book("In the Hurricane's Eye: The Genius of George Washington and the Victory at Yorktown", 'Nathaniel Philbrick', '0', "george-washington.jpg"),
-    new Book('Every Breath', 'Nicholas Sparks', '5', 'every-breath.jpg'),
-    new Book('Flashback', 'Shannon Messenger', '5', 'flashback.jpg'),
-    new Book('The Next Person You Meet in Heaven', 'Mitch Albom', '5', 'the-next-person-you-meet-in-heaven.jpg')
-  ];
-
-}
