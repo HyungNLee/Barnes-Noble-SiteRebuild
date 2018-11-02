@@ -1,10 +1,9 @@
 $(document).ready(function() {
   console.log("Outer");
-  $('.your-class').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+  $('.slider').slick({
+    slidesToShow: 5,
+    slidesToScroll: 3,
+    autoplay: false
   });
   console.log("Inner")
 })
