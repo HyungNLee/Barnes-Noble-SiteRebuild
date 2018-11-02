@@ -22,7 +22,7 @@
 }
 
 .exclusive-item {
-    height: 330px;
+    height: 350px;
     font-size: 12px;
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -41,7 +41,9 @@
 .product-info p {
     border: 1px solid white;
     margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
+    height: 26px;
+    overflow: hidden;
 }
 
 .exclusive-item-product-img {
